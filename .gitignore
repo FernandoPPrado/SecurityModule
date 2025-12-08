@@ -1,0 +1,84 @@
+###############################
+# BUILD / DEPENDENCY FOLDERS
+###############################
+/target/
+/out/
+/build/
+
+###############################
+# MAVEN
+###############################
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+###############################
+# LOGS
+###############################
+*.log
+logs/
+*.out
+
+###############################
+# ENVIRONMENT CONFIG FILES
+###############################
+# Não subir arquivos com credenciais reais
+src/main/resources/application-dev.properties
+src/main/resources/application-local.properties
+src/main/resources/application-prod.properties
+src/main/resources/application-test.properties
+
+# Se quiser garantir ainda mais:
+src/main/resources/*.properties
+!src/main/resources/application.properties   # exceto o modelo público
+
+###############################
+# IDE SPECIFIC
+###############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+###############################
+# OS SPECIFIC
+###############################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+###############################
+# JAVA / OTHER
+###############################
+*.class
+*.jar
+*.war
+*.ear
+*.classpath
+*.project
+
+###############################
+# SECURITY
+###############################
+# Evita subir tokens temporários, configs sensíveis, certificados
+*.pem
+*.key
+*.env
+.env
+.env.*
+
+src/main/resources/application.properties
