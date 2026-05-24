@@ -1,4 +1,4 @@
-🔐 SecurityModule – Spring Security 7 + JWT + OAuth2 Google
+🔐 SecurityModule – Spring Security 6 + JWT + OAuth2 Google
 
 * Este repositório contém um módulo de segurança plug-and-play para projetos Spring Boot 3+, com autenticação baseada em:
   * Login com email e senha (autenticação local)
