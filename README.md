@@ -150,31 +150,6 @@ Arquivos como `application-dev.properties` (com segredos reais) devem ser ignora
 
 ---
 
-## 🚀 Como rodar localmente
-
-**Requisitos:**
-
-- Java 17+
-- Maven
-
-**Passos:**
-
-```bash
-# Clonar o repositório
-git clone https://github.com/FernandoPPrado/SecurityModule.git
-cd SecurityModule
-
-# Configurar variáveis de ambiente (JWT_SECRET, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET)
-
-# Compilar e rodar
-mvn clean install
-mvn spring-boot:run
-```
-
-A aplicação sobe em `http://localhost:8080`.
-
----
-
 ## 🧩 Integração em outro projeto
 
 Para reutilizar este módulo em outro projeto Spring Boot:
